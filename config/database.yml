@@ -83,6 +83,7 @@ test:
 #
 production:
   <<: *default
-  database: citylimits_production
-  username: citylimits
-  password: <%= ENV['CITYLIMITS_DATABASE_PASSWORD'] %>
+  database: salon
+  username: admin
+  password: h0lein0ne
+  #password: <%= ENV['CITYLIMITS_DATABASE_PASSWORD'] %>
