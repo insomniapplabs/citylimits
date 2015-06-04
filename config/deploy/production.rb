@@ -63,6 +63,6 @@ server '104.131.1.187', user: 'deployer', roles: %w{app db web} # , my_property:
 set :ssh_options, {
 	forward_agent: false,
 	auth_methods: %w(password),
-	password:: 'holein0ne',
+	password: 'holein0ne',
 	user: 'deployer'
 }
