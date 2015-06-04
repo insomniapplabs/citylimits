@@ -39,6 +39,7 @@ gem 'autoprefixer-rails'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rbenv', '~> 2.0', require: false
+gem 'capistrano-passenger'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
