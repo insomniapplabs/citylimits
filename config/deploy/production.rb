@@ -59,3 +59,10 @@ server '104.131.1.187', user: 'deployer', roles: %w{app db web} # , my_property:
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+
+set :ssh_options, {
+	forward_agent: false,
+	auth_methods: %w(password),
+	password:: 'holein0ne',
+	user: 'deployer'
+}
