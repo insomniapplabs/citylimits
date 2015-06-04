@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :application, 'citylimits'
 set :repo_url, 'git@github.com:insomniapplabs/citylimits.git'
-set :rbenv_ruby, '2.2.1'
+#set :rbenv_ruby, '2.2.1'
 
 
 # Default branch is :master
