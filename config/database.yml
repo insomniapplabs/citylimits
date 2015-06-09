@@ -87,7 +87,7 @@ test:
 #
 production:
   <<: *default
-  database: salon_db1
-  username: deployer
-  password: h0lein0ne
+  database: app_production
+  username: rails
+  password: qggJEUJEcj
   #password: <%= ENV['CITYLIMITS_DATABASE_PASSWORD'] %>
