@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'citylimits'
-set :repo_url, 'git@github.com:insomniapplabs/citylimits.git'
+set :repo_url, 'https://insomniapplabs:h0lein0ne@github.com/insomniapplabs/citylimits.git'
 set :rvm, '2.2.1'
 
 
@@ -10,7 +10,7 @@ set :rvm, '2.2.1'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/deployer/apps/citylimits/current/public'
+set :deploy_to, '/home/deployer/apps/citylimits'
 
 # Default value for :scm is :git
 set :scm, :git

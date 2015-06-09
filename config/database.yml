@@ -89,5 +89,5 @@ production:
   <<: *default
   database: app_production
   username: rails
-  password: BE7roNMGSB
+  password: 8JDWmSxgrM
   #password: <%= ENV['CITYLIMITS_DATABASE_PASSWORD'] %>
