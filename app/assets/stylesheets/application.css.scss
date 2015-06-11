@@ -20,22 +20,22 @@
 /* FONTS */
 @font-face {
   font-family: 'tendernessregular';
-  src: url('Tenderness-webfont.eot');
-  src: url('Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
-  url('Tenderness-webfont.woff') format('woff'),
-  url('Tenderness-webfont.ttf') format('truetype'),
-  url('Tenderness-webfont.svg#tendernessregular') format('svg');
+  src: font-url('Tenderness-webfont.eot');
+  src: font-url('Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('Tenderness-webfont.woff') format('woff'),
+  font-url('Tenderness-webfont.ttf') format('truetype'),
+  font-url('Tenderness-webfont.svg#tendernessregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
   font-family: 'latoblack';
-  src: url('lato-bla-webfont.eot');
-  src: url('lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-bla-webfont.woff') format('woff'),
-  url('lato-bla-webfont.ttf') format('truetype'),
-  url('lato-bla-webfont.svg#latoblack') format('svg');
+  src: font-url('lato-bla-webfont.eot');
+  src: font-url('lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-bla-webfont.woff') format('woff'),
+  font-url('lato-bla-webfont.ttf') format('truetype'),
+  font-url('lato-bla-webfont.svg#latoblack') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -43,11 +43,11 @@
 
 @font-face {
   font-family: 'latoblack_italic';
-  src: url('lato-blaita-webfont.eot');
-  src: url('lato-blaita-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-blaita-webfont.woff') format('woff'),
-  url('lato-blaita-webfont.ttf') format('truetype'),
-  url('lato-blaita-webfont.svg#latoblack_italic') format('svg');
+  src: font-url('lato-blaita-webfont.eot');
+  src: font-url('lato-blaita-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-blaita-webfont.woff') format('woff'),
+  font-url('lato-blaita-webfont.ttf') format('truetype'),
+  font-url('lato-blaita-webfont.svg#latoblack_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -55,11 +55,11 @@
 
 @font-face {
   font-family: 'latobold';
-  src: url('lato-bol-webfont.eot');
-  src: url('lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-bol-webfont.woff') format('woff'),
-  url('lato-bol-webfont.ttf') format('truetype'),
-  url('lato-bol-webfont.svg#latobold') format('svg');
+  src: font-url('lato-bol-webfont.eot');
+  src: font-url('lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-bol-webfont.woff') format('woff'),
+  font-url('lato-bol-webfont.ttf') format('truetype'),
+  font-url('lato-bol-webfont.svg#latobold') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -67,11 +67,11 @@
 
 @font-face {
   font-family: 'latobold_italic';
-  src: url('lato-bolita-webfont.eot');
-  src: url('lato-bolita-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-bolita-webfont.woff') format('woff'),
-  url('lato-bolita-webfont.ttf') format('truetype'),
-  url('lato-bolita-webfont.svg#latobold_italic') format('svg');
+  src: font-url('lato-bolita-webfont.eot');
+  src: font-url('lato-bolita-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-bolita-webfont.woff') format('woff'),
+  font-url('lato-bolita-webfont.ttf') format('truetype'),
+  font-url('lato-bolita-webfont.svg#latobold_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -79,11 +79,11 @@
 
 @font-face {
   font-family: 'latohairline';
-  src: url('lato-hai-webfont.eot');
-  src: url('lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-hai-webfont.woff') format('woff'),
-  url('lato-hai-webfont.ttf') format('truetype'),
-  url('lato-hai-webfont.svg#latohairline') format('svg');
+  src: font-url('lato-hai-webfont.eot');
+  src: font-url('lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-hai-webfont.woff') format('woff'),
+  font-url('lato-hai-webfont.ttf') format('truetype'),
+  font-url('lato-hai-webfont.svg#latohairline') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -91,11 +91,11 @@
 
 @font-face {
   font-family: 'latohairline_italic';
-  src: url('lato-haiita-webfont.eot');
-  src: url('lato-haiita-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-haiita-webfont.woff') format('woff'),
-  url('lato-haiita-webfont.ttf') format('truetype'),
-  url('lato-haiita-webfont.svg#latohairline_italic') format('svg');
+  src: font-url('lato-haiita-webfont.eot');
+  src: font-url('lato-haiita-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-haiita-webfont.woff') format('woff'),
+  font-url('lato-haiita-webfont.ttf') format('truetype'),
+  font-url('lato-haiita-webfont.svg#latohairline_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -103,11 +103,11 @@
 
 @font-face {
   font-family: 'latolight';
-  src: url('lato-lig-webfont.eot');
-  src: url('lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-lig-webfont.woff') format('woff'),
-  url('lato-lig-webfont.ttf') format('truetype'),
-  url('lato-lig-webfont.svg#latolight') format('svg');
+  src: font-url('lato-lig-webfont.eot');
+  src: font-url('lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-lig-webfont.woff') format('woff'),
+  font-url('lato-lig-webfont.ttf') format('truetype'),
+  font-url('lato-lig-webfont.svg#latolight') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -115,11 +115,11 @@
 
 @font-face {
   font-family: 'latolight_italic';
-  src: url('lato-ligita-webfont.eot');
-  src: url('lato-ligita-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-ligita-webfont.woff') format('woff'),
-  url('lato-ligita-webfont.ttf') format('truetype'),
-  url('lato-ligita-webfont.svg#latolight_italic') format('svg');
+  src: font-url('lato-ligita-webfont.eot');
+  src: font-url('lato-ligita-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-ligita-webfont.woff') format('woff'),
+  font-url('lato-ligita-webfont.ttf') format('truetype'),
+  font-url('lato-ligita-webfont.svg#latolight_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -127,11 +127,11 @@
 
 @font-face {
   font-family: 'latoregular';
-  src: url('lato-reg-webfont.eot');
-  src: url('lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-reg-webfont.woff') format('woff'),
-  url('lato-reg-webfont.ttf') format('truetype'),
-  url('lato-reg-webfont.svg#latoregular') format('svg');
+  src: font-url('lato-reg-webfont.eot');
+  src: font-url('lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-reg-webfont.woff') format('woff'),
+  font-url('lato-reg-webfont.ttf') format('truetype'),
+  font-url('lato-reg-webfont.svg#latoregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -139,11 +139,11 @@
 
 @font-face {
   font-family: 'latoitalic';
-  src: url('lato-regita-webfont.eot');
-  src: url('lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
-  url('lato-regita-webfont.woff') format('woff'),
-  url('lato-regita-webfont.ttf') format('truetype'),
-  url('lato-regita-webfont.svg#latoitalic') format('svg');
+  src: font-url('lato-regita-webfont.eot');
+  src: font-url('lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('lato-regita-webfont.woff') format('woff'),
+  font-url('lato-regita-webfont.ttf') format('truetype'),
+  font-url('lato-regita-webfont.svg#latoitalic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -157,7 +157,7 @@
 .increase-text {font-size:1.1em;}
 .bottom {margin-bottom:15px;}
 
-.top-container {min-height:500px;background:#333;background-image:url('salon.jpg');}
+.top-container {min-height:500px;background:#333;background-image:font-url('salon.jpg');}
 
 .welcome-container {padding:50px 0;}
 
