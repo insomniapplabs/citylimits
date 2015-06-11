@@ -8,10 +8,9 @@
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
 set :stage, :production
-role :app, %w{deployer@104.236.111.53}
-role :web, %w{deployer@104.236.111.53}
-role :db, %w{deployer@104.236.111.53}
 
+# Replace 127.0.0.1 with your server's IP address!
+server '104.131.1.187', user: 'deployer', roles: %w{web app}
 
 # role-based syntax
 # ==================

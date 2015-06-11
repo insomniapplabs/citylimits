@@ -39,11 +39,12 @@ gem 'better_errors'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'capistrano'
-  # cap tasks to manage puma application server
-# gem 'capistrano-puma', require: false
-gem 'capistrano-rails',   '~> 1.1', require: false
-gem 'capistrano-bundler', '~> 1.1', require: false
-gem 'capistrano-rvm',   '~> 0.1', require: false
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+
+# Add this if you're using rbenv
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
