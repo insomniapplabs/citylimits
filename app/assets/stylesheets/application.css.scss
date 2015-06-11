@@ -157,11 +157,11 @@
 .increase-text {font-size:1.1em;}
 .bottom {margin-bottom:15px;}
 
-.top-container {min-height:500px;background:#333;background-image:font-url('salon.jpg');}
+.top-container {min-height:500px;background:#333;/*background-image:font-url('salon.jpg');*/}
 
 .welcome-container {padding:50px 0;}
 
-.staff-img {border-radius:50%;width:100%;}
+.staff-img {border-radius:50%;width:100%;margin-bottom:20px;}
 .staff-container {margin-bottom:30px;}
 .staff-name-welcome {margin-top:0;}
 .staff-name {margin-top:0;font-family:'latobold';color:#fff;}
