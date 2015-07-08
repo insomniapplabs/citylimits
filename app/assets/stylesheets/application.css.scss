@@ -189,14 +189,14 @@
 }
 
 
-.contact-container {background:url('/assets/dark_wall.png') repeat;padding:30px 0 50px 0;}
+.contact-container {background:asset_url('dark_wall.png') repeat;padding:30px 0 50px 0;}
 
 .teal {color:#1693A5;}
 .white {color:#fff;}
 
 .navbar {margin-bottom:0;}
 
-.phone-container {background:url('/assets/dark_wall.png') repeat;padding:15px 0;font-family:'latolight';}
+.phone-container {background:asset_url('dark_wall.png') repeat;padding:15px 0;font-family:'latolight';}
 .phone-container h3 {font-size:1.3em;margin:0;font-family:'latolight';}
 
 .noresize {resize:none;}
