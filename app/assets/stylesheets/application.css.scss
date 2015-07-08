@@ -161,7 +161,7 @@
 
 .welcome-container {padding:50px 0;}
 
-.staff-img {border-radius:50%;width:100%;margin-bottom:20px;}
+.staff-img {border-radius:50%;width:100%;margin-bottom:20px;/*border:5px solid #1f1f1f;*/ }
 .staff-container {margin-bottom:30px;}
 .staff-name-welcome {margin-top:0;}
 .staff-name {margin-top:0;font-family:'latobold';color:#fff;}
@@ -169,14 +169,15 @@
 .staff-description {font-size:1.1em;font-family:'latolight';color:#ccc;}
 
 
-.stylist-container {background:#222;padding:30px 0;}
+.stylist-container {background:url('/assets/dark_wall.png') repeat;padding:30px 0;}
 
 .services-container {padding:40px 0;}
 .services-header {margin-bottom:40px;font-size:3.0em;}
 .services-text {font-family:'latolight';font-size:1.3em;}
 .services-text-top {font-family:'latolight';font-size:1.3em;margin-top:30px;}
 .color-row {
-  background:#f2ffff;
+  background:#1693A5;
+  color:white;
   p {margin-bottom:0;padding:7px 0;}
 }
 .colorless-row {
@@ -188,14 +189,14 @@
 }
 
 
-.contact-container {background:#222;padding:30px 0 50px 0;}
+.contact-container {background:url('/assets/dark_wall.png') repeat;padding:30px 0 50px 0;}
 
 .teal {color:#1693A5;}
 .white {color:#fff;}
 
 .navbar {margin-bottom:0;}
 
-.phone-container {background:#222;padding:15px 0;font-family:'latolight';}
+.phone-container {background:url('/assets/dark_wall.png') repeat;padding:15px 0;font-family:'latolight';}
 .phone-container h3 {font-size:1.3em;margin:0;font-family:'latolight';}
 
 .noresize {resize:none;}
@@ -209,7 +210,6 @@
   }
 }
 .fb-img {width:80px;}
-
 
 
 
@@ -435,9 +435,3 @@ fieldset[disabled] .form-control-custom {
 textarea.form-control-custom {
   height: auto;
 }
-
-
-
-
-
-
