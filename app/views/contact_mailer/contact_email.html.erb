@@ -1,5 +1,14 @@
-<p><%= @contact.name %></p>
-<p><%= @contact.email %></p>
-<p><%= @contact.phone %></p>
-<p><%= @contact.stylist %></p>
-<p><%= @contact.message %></p>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<h2>New Contact</h2>
+		<p>Name: <%= @contact.name %></p>
+		<p>Email: <%= @contact.email %></p>
+		<p>Phone: <%= @contact.phone %></p>
+		<p>Stylist (if selected): <%= @contact.stylist %></p>
+		<p>Message:<br><%= @contact.message %></p>
+	</body>
+</html>
