@@ -88,7 +88,7 @@ Rails.application.configure do
     authentication: :plain,
     user_name: ENV['SENDGRID_USERNAME'],
     password: ENV['SENDGRID_PASSWORD'],
-    domain: '104.131.1.137',
+    domain: 'thecitylimitssalon.com',
     enable_starttls_auto: true 
   }
 
