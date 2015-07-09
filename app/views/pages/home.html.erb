@@ -244,7 +244,8 @@
           </div>
           <div class="form-group">
             <label class="sr-only">Stylist</label>
-            <input type="text" placeholder="Specify a Stylist" class="form-control-custom">
+            <%= f.select :stylist, ['Lea Smith', 'Karen Beathard', 'Caroline Lakins', 'Kristi Bentley'], { prompt: "-- specify a styist --" }, { class: "form-control-custom" } %>
+            <!--<input type="text" placeholder="Specify a Stylist" class="form-control-custom">-->
           </div>
           <div class="form-group">
             <label class="sr-only">Message></label>
