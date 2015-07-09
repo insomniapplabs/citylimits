@@ -29,6 +29,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
+gem 'figaro'
+
 # gem 'better_errors'
 
 # Use ActiveModel has_secure_password

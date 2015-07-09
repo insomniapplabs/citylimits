@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-offset-2 col-xs-8 col-md-offset-2 col-md-3">
-        <%= image_tag "lea.png", class: "staff-img" %>
+        <%= image_tag "lea.png", class: "staff-img-white" %>
       </div>
       <div class="col-xs-12 col-md-5">
         <h2 class="staff-name-welcome latolight teal">Welcome!</h2>
@@ -226,14 +226,21 @@
       <div class="col-md-offset-3 col-md-6">
         <h2 class="text-center white latolight services-header">Contact Us</h2>
         <p class="latolight white text-center bottom">Make an appointment using the form below or give us a call at 615&#8209;946&#8209;1255.</p>
-        <form>
+        <%= form_for Contact.new do |f| %>
           <div class="form-group">
             <label class="sr-only">Name</label>
-            <input type="text" placeholder="Name" class="form-control-custom">
+            <%= f.text_field :name, placeholder: "Name", class: "form-control-custom" %>
+            <!--<input type="text" placeholder="Name" class="form-control-custom">-->
           </div>
           <div class="form-group">
             <label class="sr-only">Email</label>
-            <input type="text" placeholder="Email" class="form-control-custom">
+            <%= f.text_field :email, placeholder: "Email", class: "form-control-custom" %>
+            <!--<input type="text" placeholder="Email" class="form-control-custom">-->
+          </div>
+          <div class="form-group">
+            <label class="sr-only">Phone</label>
+            <%= f.text_field :phone, placeholder: "Phone", class: "form-control-custom" %>
+            <!--<input type="text" placeholder="Phone" class="form-control-custom">-->
           </div>
           <div class="form-group">
             <label class="sr-only">Stylist</label>
@@ -241,10 +248,11 @@
           </div>
           <div class="form-group">
             <label class="sr-only">Message></label>
-            <textarea type="text" placeholder="Message" class="form-control-custom noresize" rows="5"></textarea>
+            <%= f.text_area :message, placeholder: "Message", class: "form-control-custom", rows: 7 %>
+            <!--<textarea type="text" placeholder="Message" class="form-control-custom noresize" rows="5"></textarea>-->
           </div>
           <button type="submit" class="btn btn-teal">Get in Touch</button>
-        </form>
+        <% end %>
       </div>
     </div>
   </div>

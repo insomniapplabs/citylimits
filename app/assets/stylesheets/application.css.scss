@@ -161,7 +161,8 @@
 
 .welcome-container {padding:50px 0;}
 
-.staff-img {border-radius:50%;width:100%;margin-bottom:20px;/*border:5px solid #1f1f1f;*/ }
+.staff-img {border-radius:50%;width:100%;margin-bottom:20px;border:4px solid #1f1f1f; }
+.staff-img-white {border-radius:50%;width:100%;margin-bottom:20px; }
 .staff-container {margin-bottom:30px;}
 .staff-name-welcome {margin-top:0;}
 .staff-name {margin-top:0;font-family:'latobold';color:#fff;}
@@ -189,7 +190,13 @@
 }
 
 
-.contact-container {background:asset_url('dark_wall.png') repeat;padding:30px 0 50px 0;}
+.contact-container {
+  background:asset_url('dark_wall.png') repeat;
+  padding:30px 0 50px 0;
+  textarea {
+    resize:none;
+  }
+}
 
 .teal {color:#1693A5;}
 .white {color:#fff;}
