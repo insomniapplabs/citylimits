@@ -51,3 +51,5 @@ gem 'capistrano-figaro-yml', '~> 1.0.2'
 
 # Add this if you're using rbenv
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
+
+gem 'html5_validators'
