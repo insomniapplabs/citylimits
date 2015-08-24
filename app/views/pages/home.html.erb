@@ -217,6 +217,72 @@
 
 
 
+<!-- BEFORE AND AFTER CONTAINER -->
+<div class="before-container" id="before">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        
+        <h2 class="text-center latolight services-header teal">Before & Afters</h2>
+        <!-- SLIDE SHOW CODE -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <!--<ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+          </ol>-->
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <%= image_tag "ba-1.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-2.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-3.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-4.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-5.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-6.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-7.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "ba-8.jpg" %>
+            </div>
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- CONTACT CONTAINER -->
@@ -225,7 +291,7 @@
     <div class="row">
       <div class="col-md-offset-3 col-md-6">
         <h2 class="text-center white latolight services-header">Contact Us</h2>
-        <p class="latolight white text-center">Make an appointment using the form below or give us a call at 615&#8209;946&#8209;1255.</p>
+        <p class="latolight white text-center bottom-less">Make an appointment using the form below or give us a call at 615&#8209;946&#8209;1255.</p>
         <p class="latolight white text-center bottom">Our address is 1545 Thompson Station Road West.</p>
         <%= form_for Contact.new do |f| %>
           <div class="form-group">
